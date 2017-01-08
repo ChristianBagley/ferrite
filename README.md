@@ -2,7 +2,7 @@
 
 Ferrite is like Google, but for your browser history.
 Ferrite is a full-text search engine for your browsing history.
-Ferrite is love, Ferrite is life.
+Ferrite is love. Ferrite is life.
 
 # Hum ?
 
@@ -13,8 +13,16 @@ The Python part is an HTTP server that waits for the JS to call. Right now, the 
 ![xkcd python comic](https://imgs.xkcd.com/comics/python.png)
 
 
+Howto : [install the extension in your browser](https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Your_first_WebExtension#Installing)
+
 # Why Ferrite ?
 
 Because [magnetic-core memory](https://en.wikipedia.org/wiki/Magnetic-core_memory) uses ferrite cores to store information and it's a cool name.
 
 ![A ferrite core memory](https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/KL_CoreMemory.jpg/260px-KL_CoreMemory.jpg)
+
+# Disclaimer
+
+Ferrite stores your private/incognito browsing history, beware !
+
+Why does ferrite do that ? Because i did not find a way to known if a content script was loaded in an incognito tab or not...
