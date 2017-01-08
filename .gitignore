@@ -2,3 +2,6 @@ server/ve
 server/ve3
 server/venv
 server/venv3
+
+server/db.sqlite
+server/local_config.py

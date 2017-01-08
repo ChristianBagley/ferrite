@@ -1,1 +1,5 @@
 flask
+sqlalchemy
+readability-lxml
+psycopg2
+langdetect
