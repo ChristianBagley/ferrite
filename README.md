@@ -4,6 +4,9 @@ Ferrite is like Google, but for your browser history.
 Ferrite is a full-text search engine for your browsing history.
 Ferrite is love. Ferrite is life.
 
+Ferrite can search for anything in your history, not just in the page titles but in it's content too.
+Ferrite might even be your personal WayBackMachine (who knows ?).
+
 # Hum ?
 
 Ferrite works in 2 parts. One part that runs in your browser (Firefox for now, but it's a webExtension so it might work in Chrome) and collects every web page you visit. It grabs it's URL, DOM and a timestamp and then periodically sends it to the Python.
