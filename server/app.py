@@ -5,6 +5,12 @@ from flask import Flask, request, abort
 from database import db_session
 from models import Visit
 
+import os
+if os.getuid() == 0:
+    import sys
+    print("Ferrite may not run as root.")
+    sys.exit(-1)
+
 app = Flask(__name__)
 
 
